@@ -1,0 +1,61 @@
+@media all and (max-width: 1150px) {
+  .tsprnt:hover {
+    background-color: yellow;
+    border-color: darkred;
+  }
+
+  .green:hover {
+    border: 2px solid;
+    background-color: transparent;
+  }
+  .second-item:hover {
+    background-color: blue;
+    color: yellow;
+    transform: scale(1.07);
+    box-shadow: 0 0 40px 5px rgba(0, 0, 0, 1);
+  }
+  .second-item:hover,
+  .Readmore {
+    border-color: rgb(0, 0, 1);
+    color: rgb(0, 0, 1);
+  }
+}
+.second-item:hover,
+.icon {
+  fill: #fff;
+}
+@media all and (max-width: 768px) {
+  .nav-wrapper {
+    overflow: auto;
+    white-space: nowrap;
+  }
+  .logo,
+  .search-wrapper,
+  .topnav {
+    display: inline-block;
+  }
+  .h1 {
+    font-size: 8vw;
+  }
+  .header-btn {
+    margin-top: 15px;
+    width: 90vw;
+    height: 60px;
+  }
+  .header-btn + .header-btn {
+    margin-left: 0;
+  }
+  .aection-subtitle {
+    width: 85%;
+  }
+  .second-item,
+  .first-item {
+    width: 90%;
+    margin: 20px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+  .first-box {
+    flex-wrap: wrap;
+  }
+}
